@@ -1,16 +1,22 @@
-.cabecalho{
+
+.container{
+    height: 100vh;
+    background-color: green;
+    width: 100%;
+    min-height: 100vh;
+    color: aliceblue;
     display: flex;
+    justify-content: center;
     align-items: center;
-    text-align: center;
-
 }
-
-   
 
 section{
     display: flex;
-    
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
 }     
+
 
 .botao-registra{
     color: aliceblue;
@@ -23,27 +29,13 @@ section{
     color: aliceblue;
     background-color: black;
 }
-.serv{
-    font-weight: 700;
-    
-}
-.esquecisenha{
-    color: black;
-    font-weight: 700;
-}
-.container{
-    background-color: green;
-    width: 100%;
-    min-height: 100vh;
-    color: aliceblue;
-    
-}
+
+
 .email-senha{
    
     display: flex;
     flex-direction: column;
     width: 20%;
-
 
 }
 .cadastro{
