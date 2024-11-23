@@ -1,47 +1,98 @@
-
-.container{
-    height: 100vh;
-    background-color: green;
-    width: 100%;
-    min-height: 100vh;
-    color: aliceblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.cabesalho{
+    background-color: white ;
+    height:120px;
+    margin: 0;
+    background-size: cover;
+    Width: 100% 
+    
 }
-
-section{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 50%;
-}     
-
-
-.botao-registra{
-    color: aliceblue;
-    background-color: black;
-    margin: 100px;
-
-
+body{
+    background-color: #023302fc;
 }
-.botao-entrar{
-    color: aliceblue;
-    background-color: black;
+.container-login {
+    width: 300px; /* Largura do contêiner */
+    padding: 20px; /* Espaçamento interno do contêiner */
+    border: none; /* Remove a borda do contêiner */
+    border-radius: 10px; /* Bordas arredondadas do contêiner (opcional) */
 }
-
-
-.email-senha{
-   
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-
-}
-.cadastro{
-    display: flex;
-    flex-direction: column;
-    width: 20%;
+.h2-login {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
     
 
 }
+
+.input-group {
+    margin-bottom: 20px; /* Espaço entre todos os grupos de input */
+}
+
+.entrar-login{
+    width: 200px;
+    background-color: black;
+    color: #ccc;
+    border: 2px solid white; 
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    font-size: 16px; 
+    cursor: pointer;  
+    border-radius: 5%;
+    
+}
+.entrar-login:hover {
+    background-color: white;
+}
+
+.esqueci {
+    margin: 0; 
+    padding: 0;
+    color: black;  
+    font-weight: bold;  
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+/*REGISTRO*/
+
+.reh2{
+    color: white;
+}
+.registro{
+    width: 300px; /* Largura do contêiner */
+    padding: 20px; /* Espaçamento interno do contêiner */
+    border: none; /* Remove a borda do contêiner */
+    border-radius: 10px; /* Bordas arredondadas do contêiner (opcional) */
+    margin-bottom: 20px;
+}
+.registro input {
+    margin-bottom: 15px;
+
+}
+.botaoregistrar{
+    width: 200px;
+    background-color: black;
+    color: #ccc;
+    border: 2px solid white; 
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    font-size: 16px; 
+    cursor: pointer;  
+    border-radius: 5%;
+}
+.botaoregistrar:hover {
+    background-color: white;
+}
+
+
+    
+
+
+
+

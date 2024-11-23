@@ -1,23 +1,37 @@
-<div class="container">
-    
-
-    <section>
-        <div class="email-senha">
-            <h1>Login</h1>
-
-            <input type="Email" name="email" id="email">
-            <input type="Senha" name="Senha" id="Senha">
-            <p class="esquecisenha">ESQUECI MINHA SENHA</p>
-            <button class="botao-entrar">ENTRAR</button>
+"<body>
+    <div class="cabesalho">
+        <h1>Mr Moveis</h1>
+    </div>
+    <div class="container">
+        <div class="container-login">
+            <h2 class="h2-login">Login</h2>
+            <form action="#" method="POST">
+                <div class="input-group">
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" placeholder="E-mail" required>
+                </div>
+                <div class="input-group">
+                    <label for="password"></label>
+                    <input type="password" id="password" name="password" placeholder="Senha" required>
+                    <p class="esqueci">
+                        <a href="#" class="forgot-password">Esqueci minha senha</a>
+                    </p>
+                </div>
+                <button type="submit" class="entrar-login">Entrar</button>
+            </form>
         </div>
-        <div class="cadastro">
-            <h1>Cadastro</h1>
-
-            <input type="nome" name="nome" id="nome">
-            <input type="e-mail" name="e-mail" id="e-mail">
-            <input type="senha" name="senha" id="senha">
-            <button class="botao-registrar">REGISTRAR</button>
+        <div class="registro">
+            <h2 class="reh2">Registro</h2>
+            <form>
+                <label for="new-email"></label>
+        <input type="email" id="new-email" name="new-email" placeholder="Digite seu e-mail" required>
+        <label for="new-password"></label>
+        <input type="password" id="new-password" name="new-password" placeholder="Digite sua nova senha" required>
+        <label for="confirm-password"></label>
+        <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirme sua senha" required>
+        
+        <button class="botaoregistrar" type="submit">Registrar</button>
+            </form>
         </div>
-    </section>
-
-</div>
+    </div>
+</body>
