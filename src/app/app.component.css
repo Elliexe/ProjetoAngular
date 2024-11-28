@@ -1,0 +1,155 @@
+.serviços{
+    text-align: right;
+    margin-right: 327px;
+    position: relative;
+    top: 75px;   
+}
+
+.inicio{
+    text-align: right; /* Alinha o texto à direita */
+    margin-right: 100px; /* Espaço à direita para afastar da borda */
+    position: relative; /* Permite mover o elemento */
+    top: 100px; /* Move o texto para baixo */
+    
+}
+
+
+.logo{
+    width: 300px;
+    background-image: url(/logu.png);
+    background-color: white;
+    background-size: cover; /* Faz a imagem cobrir todo o contêiner */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    height: 175px;
+    display: flex; /* Usar flexbox */
+    justify-content: space-between; /* Espaça os elementos */
+    align-items: center; /* Alinha verticalmente ao centro */
+    padding: 0 60px; /* Adiciona um pouco de espaço nas laterais */
+    text-align: center;
+    font-size: 12px;
+}
+ 
+body {
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    display: flex; /* Usando flexbox para layout */
+    justify-content: space-around; /* Espaço entre os elementos */
+    padding: 20px; /* Espaçamento interno */
+    background-image: url(/dentro.png);
+    background-size: cover; /* Faz a imagem cobrir todo o contêiner */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+}
+
+.container-login {
+    width: 300px; /* Largura do contêiner */
+    padding: 20px; /* Espaçamento interno do contêiner */
+    border: none; /* Remove a borda do contêiner */
+    border-radius: 10px; /* Bordas arredondadas do contêiner (opcional) */
+    margin-top: 120px;
+}
+
+
+       
+.input-group {
+    margin-bottom: 20px; /* Espaço entre todos os grupos de input */
+}
+
+.input-group-flex {
+    display: flex; /* Usando flexbox para os inputs */
+    justify-content: space-between; /* Espaço entre os inputs */
+}
+
+input[type="email"],
+input[type="password"] {
+    width: calc(90%); /* Largura dos inputs com um espaço entre eles */
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.h2-login{
+    text-align: center;
+    color: white;
+}
+.entrar-login {
+    width: 200px; /* Largura do botão */
+    background-color: black;
+    color: #ccc;
+    border: 2px solid white; 
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    font-size: 16px; 
+    cursor: pointer;  
+    border-radius: 5%;
+    display: block; /* Faz o botão ser um bloco */
+    margin: 20px auto; /* Centraliza o botão horizontalmente */
+}
+
+.entrar-login:hover {
+    background-color: white;
+}
+
+.esqueci {
+    margin: 0; 
+    padding: 0;
+    color: black;  
+    font-weight: bold;  
+}
+
+/* REGISTRO */
+
+.reh2 {
+    color: white;
+}
+
+.registro {
+    width: 300px; /* Largura do contêiner */
+    padding: 20px; /* Espaçamento interno do contêiner */
+    border: none; /* Remove a borda do contêiner */
+    border-radius: 10px; /* Bordas arredondadas do contêiner (opcional) */
+    margin-bottom: 20px;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.registro .input-group {
+    margin-bottom: 15px; /* Espaço entre os grupos de input */
+}
+
+.registro .input-group-flex {
+    display: flex; /* Usando flexbox para os inputs */
+    justify-content: space-between; /* Espaço entre os inputs */
+}
+
+.registro input {
+    width: calc(90%); /* Largura dos inputs com um espaço entre eles */
+    margin-bottom: 15px;
+    
+}
+
+.botaoregistrar {
+    
+        width: 200px; /* Largura do botão */
+        background-color: black;
+        color: #ccc;
+        border: 2px solid white; 
+        padding: 10px; /* Espaçamento interno do botão */
+        font-size: 16px; 
+        cursor: pointer;  
+        border-radius: 5%;
+        display: block; /* Faz o botão ser um bloco */
+        margin: 20px auto; /* Centraliza o botão horizontalmente */
+    }
+
+.botaoregistrar:hover {
+    background-color: white;
+}
