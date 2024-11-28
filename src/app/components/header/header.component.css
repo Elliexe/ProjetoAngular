@@ -1,4 +1,3 @@
-
 .body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -195,12 +194,38 @@ position: fixed;
   background-repeat: no-repeat;
 
 }
+.productImage7{
+  max-width: 100%;
+  border-radius: 8px;
+  background-image: url(/geladeira.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.productImage8{
+  max-width: 100%;
+  border-radius: 8px;
+  background-image: url(/fogao.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.productImage9{
+  max-width: 100%;
+  border-radius: 8px;
+  background-image: url(/freezer.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
 .productTitle {
   font-size: 1.5em;
   margin: 10px 0;
   color: #333;
 }
-
 .productDescription {
   font-size: 0.9em;
   color: #777;
